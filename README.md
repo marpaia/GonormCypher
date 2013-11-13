@@ -8,7 +8,7 @@ abstracted away through incomplete "wrappers". This is my attempt at allowing
 you to use Cypher to interact with Neo4j in your Go code in a clean, idiomatic
 way.
 
-Big ups to [https://github.com/AnormCypher/AnormCypher](AnormCypher) and
+Big ups to [AnormCypher](https://github.com/AnormCypher/AnormCypher) and
 [Wes Freeman](https://twitter.com/wefreema), as this is obviously a rough port
 of Wes' amazing work.
 
