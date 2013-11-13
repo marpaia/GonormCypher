@@ -1,7 +1,16 @@
 GonormCypher
 ============
 
-Neo4j Go library based on Anorm in the Play Framework
+Neo4j Go library based on Anorm in the Play Framework.
+
+Cypher is an amazing query language and I don't think that it should be
+abstracted away through incomplete "wrappers". This is my attempt at allowing
+you to use Cypher to interact with Neo4j in your Go code in a clean, idiomatic
+way.
+
+Big ups to [https://github.com/AnormCypher/AnormCypher](AnormCypher) and
+[Wes Freeman](https://twitter.com/wefreema), as this is obviously a rough port
+of Wes' amazing work.
 
 ## Installation
 
