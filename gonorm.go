@@ -198,10 +198,12 @@ func (r *Results) AsNodes() ([]*Node, error) {
 
 	var nodes = []*Node{}
 
-	for _, value := range r.Data[0].([]interface{}) {
+	for _,d := range r.Data{
+		for _, value := range d.([]interface{}) {
 		node := new(Node)
 		node.Params = value.(map[string]interface{})["data"].(map[string]interface{})
 		nodes = append(nodes, node)
+		}
 	}
 
 	return nodes, nil
